@@ -14,6 +14,18 @@
     color: #fff;
 }
 
+.read-btn {
+    font-family: Poppins;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #808080;
+}
+
+.read-btn:hover {
+    background-color: #1e83a8;
+    color: #fff;
+}
+
 .offcanvas {
     flex-direction: row;
 }
@@ -117,5 +129,9 @@ footer button {
 @media(max-width:995px) {
     .offcanvas {
         flex-direction: column;
+    }
+    .overflow-y-auto {
+        border: 1px solid #808080;
+        max-height: 512px;
     }
 }
