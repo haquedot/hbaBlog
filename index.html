@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <title>Blog | Hotel Booking System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg position-fixed z-3 bg-white border-bottom w-100">
+        <div class="container">
+            <div class="d-flex align-content-center">
+                <a class="" href="#">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="dropdown dropdown-center">
+                    <button id="dropdownMenuButton" class="dropdown-toggle border-0 bg-transparent" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          | EN
+                        </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">English</a></li>
+                        <li><a class="dropdown-item" href="#">Urdu</a></li>
+                        <li><a class="dropdown-item" href="#">Hindi</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                <div class="offcanvas-header">
+                    <a class="" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <ul class="navbar-nav px-3 justify-content-center w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#room">Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#service">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex ps-3">
+                    <button class="me-2 border-1 border-dark border-opacity-10 rounded bg-transparent px-2" type="submit">
+                        <i class="bi bi-cart" style="color:#2596be"></i>
+                    </button>
+                    <button class="custom-btn" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <header class="cotainer-fluid ">
+        <h1 class="about m-0 ">
+            <p>BLOG</p>
+        </h1>
+    </header>
+
+
+    <footer class="container-fluid ">
+        <div class="container ">
+            <div class="row ">
+                <div class="col-md-4 ">
+                    <img src="images/logo.png " alt=" ">
+                    <div class="d-flex align-items-center mt-5 ">
+                        <i class="bi bi-envelope text-white pe-4 fs-4 "></i>
+                        <a href="mailto:haquedot@gmail.com " class="text-white text-decoration-none fs-6 ">haquedot@gmail.com</a>
+                    </div>
+                    <div class="d-flex align-items-center ">
+                        <i class="bi bi-telephone text-white pe-4 fs-4 "></i>
+                        <a href="callto:7502461630 " class="text-white text-decoration-none fs-6 ">7502461630</a>
+                    </div>
+                    <div class="d-flexalign-items-center mb-5 ">
+                        <i class="bi bi-house text-white pe-4 fs-4 "></i>
+                        <a href=" " class="text-white text-decoration-none fs-6 ">MANUU, Hyderabad</a>
+                    </div>
+                </div>
+                <div class="d-blck col-md-4 ">
+                    <h4 class="text-white ">
+                        USEFUL LINKS
+                    </h4>
+                    <div class="row ">
+                        <div class="d-block col-6 mt-5 ">
+                            <p class="text-white text-decoration-none fs-6 ">About Us</p>
+                            <p class="text-white text-decoration-none fs-6 ">Rooms</p>
+                            <p class="text-white text-decoration-none fs-6 ">Service</p>
+                        </div>
+                        <div class="d-block col-6 mt-5 mb-5 ">
+                            <p class="text-white text-decoration-none fs-6 ">Contact</p>
+                            <p class="text-white text-decoration-none fs-6 ">Gallery</p>
+                            <p class="text-white text-decoration-none fs-6 ">Blog</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <h4 class="text-white ">
+                        STAY IN TOUCH
+                    </h4>
+                    <div class="input-group mt-5 ">
+                        <input type="text " class="form-control py-2 " placeholder="Enter your email " aria-label="Recipient 's username" aria-describedby="button-addon2">
+                        <button class="text-white border-0 px-4" type="button" id="button-addon2">Subscribe</button>
+                    </div>
+                    <div class="d-flex my-4">
+                        <a href="">
+                            <i class="bi bi-facebook text-white pe-4 fs-4"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-twitter-x text-white pe-4 fs-4"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-instagram text-white pe-4 fs-4"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-youtube text-white pe-4 fs-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-white border-1">
+            <div class="d-flex ">
+                <i class="bi bi-c-circle text-white pe-2"></i>
+                <p class="text-white">2023 HMZ. All Right Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL " crossorigin="anonymous "></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
