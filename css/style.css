@@ -41,6 +41,10 @@
     pointer-events: none;
 }
 
+section {
+    padding-top: 100px;
+}
+
 span {
     font-family: Poppins;
     color: #2596be;
@@ -54,6 +58,15 @@ h1 {
 h4 {
     font-family: Poppins;
     font-weight: 400;
+}
+
+a h4 {
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+label {
+    font-family: Poppins;
 }
 
 p {
